@@ -71,7 +71,7 @@
             // miExit
             // 
             this.miExit.Name = "miExit";
-            this.miExit.Size = new System.Drawing.Size(152, 22);
+            this.miExit.Size = new System.Drawing.Size(116, 22);
             this.miExit.Text = "退出(&X)";
             this.miExit.Click += new System.EventHandler(this.miExit_Click);
             // 
@@ -97,6 +97,7 @@
             this.miRefresh.ShortcutKeys = System.Windows.Forms.Keys.F5;
             this.miRefresh.Size = new System.Drawing.Size(152, 22);
             this.miRefresh.Text = "刷新";
+            this.miRefresh.Click += new System.EventHandler(this.miRefresh_Click);
             // 
             // frmDevices
             // 
