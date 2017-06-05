@@ -58,7 +58,7 @@ namespace TVController
 
             string output = process.StandardOutput.ReadToEnd();
 
-            process.WaitForExit();
+            process.WaitForExit(500);
 
             int exitCode = process.ExitCode;
 

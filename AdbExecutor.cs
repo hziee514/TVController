@@ -37,7 +37,8 @@ namespace TVController
         {
             if (process != null) {
                 process.StandardInput.WriteLine("exit");
-                process.WaitForExit();
+                process.Kill();
+                process.WaitForExit(100);
                 process.Close();
                 process = null;
             }

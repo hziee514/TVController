@@ -62,7 +62,7 @@ namespace TVController
             if (selected != null) {
                 FrmController form = new FrmController();
                 form.Device = selected;
-                form.Show(this);
+                form.Show();
             }
 
         }
